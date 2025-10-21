@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>도입 (대본 읽기)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 💡 MaruBuri 폰트 정의 추가 */
+        @font-face {
+            font-family: 'MaruBuri';
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2) format('woff2');
+            font-weight: 200;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'MaruBuri';
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2) format('woff2');
+            font-weight: 300;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'MaruBuri';
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format('woff2');
+            font-weight: 400;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'MaruBuri';
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2) format('woff2');
+            font-weight: 600;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'MaruBuri';
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2) format('woff2');
+            font-weight: 700;
+            font-display: swap;
+        }
+
+        /* 💡 기본 폰트 설정 MaruBuri로 변경 */
+        body {
+            font-family: 'MaruBuri', sans-serif;
+            min-height: 100vh;
+            color: #e4e4e7; /* 밝은 회색 텍스트 */
+            line-height: 1.6;
+            background-image: url('assets/images/bg.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 40px 0;
+        }
+        .section-box {
+            background-color: rgba(37, 40, 59, 0.7); /* 섹션 배경색 */
+            border-left: 5px solid #ffbf00; /* 강조 색상 */
+        }
+        .dialogue-box {
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .speaker {
+            font-weight: bold;
+            color: #ffbf00; /* 왕자 대사 강조 */
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+        .narration {
+            font-style: italic;
+            opacity: 0.8;
+            margin-top: 1rem;
+        }
+        .climax {
+            color: #e73030; /* 클라이맥스 텍스트 색상 */
+            font-weight: 700;
+        }
+        .divider {
+            border-top: 1px dashed #4b5563;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body class="p-8">
+
+    <div class="max-w-3xl mx-auto">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl font-extrabold text-[#e4e4e7] mb-2">📖 도입: 대본 읽기 </h1>
+            <p class="text-sm text-gray-400">대사는 역할을 맡은 플레이어가 직접 읽습니다.</p>
+        </header>
+
+        <div class="section-box p-6 rounded-lg shadow-lg mb-8">
+            
+            <p class="narration">
+                오늘은 신데렐라와 왕자의 결혼식 전날. 두 사람이 살고 있는 성에는 친척들과 성의 관계자들이 모여 전야제가 열리고 있었다.
+            </p>
+            <p class="narration mt-2">
+                파티 참가자 중에는 신데렐라의 친척으로 초대된 새어머니와 그녀의 두 딸, 돌리, 앨리시아, 그리고 성에 거주하는 마법사도 있었다. 물론 주인공인 신데렐라와 왕자도 참석해 파티를 더욱 빛나게 했다. 경비를 맡은 병사들의 협력도 있었기에, 파티는 시종일관 화기애애한 분위기 속에서 막을 내렸다.
+            </p>
+            <p class="narration mt-2">
+                파티가 끝난 후, 다음 날 결혼식에 대비하여 휴식을 취하기 위해 참가자들은 신속히 해산했다. 신데렐라와 왕자는 각자의 방으로, 어머니와 돌리, 앨리시아는 성 안에 각각 배정된 객실로 돌아갔다. 병사들도 지정된 위치에 배치되었고, 이제 남은 것은 결혼식 당일을 맞이하는 것뿐인 줄 알았다.
+            </p>
+
+            <p class="narration text-xl text-yellow-300">
+                그러나 조용해진 성 안에 갑작스러운 고성이 울려 퍼졌다.
+            </p>
+
+            <div class="dialogue-box bg-[#572727] shadow-xl">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="text-lg">"모두들 와 줘! 지금 당장! 큰일 났어!"</p>
+            </div>
+            
+            <p class="narration">
+                목소리의 주인공은 분명히 왕자였다. 단순한 일이 아님을 감지한 일행-신데렐라, 어머니, 돌리, 앨리시아, 병사-은 왕자의 목소리를 따라 마법사의 방 앞에 모였다.
+            </p>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="text-lg">"당신은 보지 않는 게 좋겠어요."</p>
+            </div>
+            <p class="narration">
+                왕자는 신데렐라의 눈을 손으로 가리며, 상심한 표정으로 입을 열었다.
+            </p>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="climax text-xl">"...마법사가 죽었습니다."</p>
+            </div>
+
+            <p class="narration">
+                마법사의 방 안에 발을 들인 일행이 목격한 것은 바닥에 쓰러져 꿈쩍도 않는 마법사의 모습이었다.
+            </p>
+
+            <div class="dialogue-box bg-[#4e5572] mt-6">
+                <span class="speaker text-blue-300">신데렐라</span>
+                <p class="text-lg">"뭐라고요!?"</p>
+            </div>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-purple-500">어머니</span>
+                <p class="text-lg">"그저 곯아떨어진 게 아니고? 꺄악!"</p>
+            </div>
+            <p class="narration">
+                마법사를 깨우려고 몸을 흔들려던 어머니는 짧은 비명을 질렀다. 그녀의 머리는 피로 새빨갛게 물들어 있었고, 절명한 것은 누구의 눈에도 명확했다. 시신은 아직 따뜻했고, 사망한 지 오래되지 않았다는 사실이 드러났다.
+            </p>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-300">돌리</span>
+                <p class="text-lg">"그럴 수가... 왜 이런 일이..."</p>
+            </div>
+            <p class="narration">
+                작게 중얼거리는 돌리에게 왕자는 굳은 얼굴로 대답했다.
+            </p>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="text-lg">"살해당한 거야. 누군가에 의해."</p>
+            </div>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-green-500">앨리시아</span>
+                <p class="text-lg">"살해됐다니요......!? 아니, 아직 단정 짓는 건 이르지 않나요? 혹시 사고일 가능성도 있잖아요?"</p>
+            </div>
+            
+            <p class="narration">
+                앨리시아의 말에 왕자는 고개를 저었다.
+            </p>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="text-lg">"그렇기엔 이해되지 않는 점이 있어. 사고로 생긴 상처라면 부딪힌 장소나 물건에도 혈흔이 남아 있어야 하잖아? 하지만 책상 모서리나 촛대 주변을 살펴봐도 그런 흔적은 없어. 게다가 상처의 위치도 걷다가 우연히 생긴 것치고는 부자연스러워."</p>
+            </div>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-blue-300">신데렐라</span>
+                <p class="text-lg">"확실히 그렇네요. 즉, 누군가가 마법사를 죽이고, 흉기를 가지고 사라졌다는 얘기......"</p>
+            </div>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="text-lg">"맞아요. 머리의 상처가 직접적인 사인은 아닐 수도 있지만...... 타살은 분명합니다."</p>
+            </div>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-purple-500">어머니</span>
+                <p class="text-lg">"아아, 이 얼마나 끔찍한 일이람...... 당장 그 살인범을 잡아야 해! 자, 이럴 때야말로 당신이 나설 차례잖아!"</p>
+            </div>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-gray-400">병사</span>
+                <p class="text-lg">"제, 제가요?"</p>
+            </div>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="text-lg">"잠깐 기다려줘."</p>
+            </div>
+            <p class="narration">
+                왕자가 병사를 재촉하는 어머니를 제지한다. 그의 표정은 진지했다.
+            </p>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="text-lg">"이 성 안에서도 이 건물—우리의 방과 객실, 그리고 이 마법사의 방은 철통같이 경비중이야. 무관한 인물이 조금이라도 들어오려 하면 큰 소동이 벌어질 테고, 내게도 즉시 보고가 들어와야 해. 하지만 그런 소란은 없었어. 즉, 오늘 이 방에 드나들 수 있었던 사람은, 애초부터 이곳에 거주하는 나와 신데렐라, 객실을 배정받은 너희 셋, 그리고 당직 경비병인 너뿐이야."</p>
+            </div>
+
+            <p class="narration">
+                조용히 가라앉은 분위기 속에서, 침묵을 깬 건 돌리의 떨리는 목소리였다.
+            </p>
+
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-300">돌리</span>
+                <p class="text-lg">"그럼, 우리 중에...... 범인이 있다는 말이야......?"</p>
+            </div>
+
+            <p class="narration">
+                "설마......"라는 누군가의 작고도 떨리는 목소리가 흘러나왔다. 서로의 얼굴을 바라보는 여섯 사람. 긴장감이 흐르고, 공기가 팽팽하게 얼어붙는다.
+            </p>
+            
+            <div class="dialogue-box bg-[#4e5572]">
+                <span class="speaker text-red-500">왕자</span>
+                <p class="text-lg">"살인범을 그대로 두고 결혼식을 올릴 수는 없어. 우리는 진실을 밝혀야 해. 그렇지 않나?"</p>
+            </div>
+            <p class="narration text-lg font-bold text-yellow-300">
+                왕자의 말에, 모두가 고개를 끄덕였다. 과연 마법사를 죽인 범인은 누구인가. 의심으로 가득 찬 범인 찾기가 막을 올렸다.
+            </p>
+        </div>
+        
+    </div>
+
+</body>
+</html>
